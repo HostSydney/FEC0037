@@ -1,0 +1,218 @@
+<!DOCTYPE html> 
+<html class="waiting">
+
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>What's Your Summer of Colour?</title>
+
+		<meta property="og:title" content="What's Your Summer of Colour?" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="WIN A SUMMER OF COLOUR SPREE! Take our quiz and tell us why you love the colours of summer for your chance to WIN a $250 voucher to spend in centre." />
+		<meta property="og:image" content="http://host-staging.com/FederationCentres/FEC0037_colourquiz/images/social.jpg" />
+		<!--
+		<meta property="og:image" content="http://summerofcolour.azurewebsites.net/images/social.jpg" />
+		-->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="icon" href="favicon.ico" />
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<div class="breakpoints_bank">
+			<div class="breakpoints_bank-tablet"></div>
+		</div>
+
+		<div class="personality_bank">
+		</div>
+
+		<div class="questions_bank">
+		</div>
+
+		<div id="wrapper">
+
+			<div class="global_measure">
+				<div></div>
+			</div>
+
+			<div class="header_measure">
+				<div></div>
+			</div>
+
+			<div class="global">
+				<div class="global_crest"><a target="_blank" href="https://www.federationcentres.com.au"></a></div>
+				<div class="global_restart"><a href="javascript:;"></a></div>
+			</div>
+
+			<div class="header">
+				<div class="hero_a">
+					<div>
+						<div></div>
+					</div>
+				</div>
+				<div class="hero_b">
+					<div>
+						<div></div>
+					</div>
+				</div>
+				<div class="hero_start fed_button">
+					<div>START QUIZ</div>
+				</div>
+			</div>
+
+			<div class="pages">
+
+				<div class="pages_window">
+				</div>
+
+				<div class="pages_landing">
+
+					<div class="pages_landing_top">
+						<div class="hero_start fed_button">
+							<div>START QUIZ</div>
+						</div>
+					</div>
+
+					<div class="pages_landing_gallery">
+						<div class="pages_landing_item">
+							<div><img src="images/landing/01.jpg" alt="Watch our Summer of Colour video." /></div>
+							<label><span>Watch</span> our Summer of Colour video.</label>
+							<a href="https://youtu.be/Ojwh-__f0iY" target="_blank"></a>
+						</div>
+						<div class="pages_landing_item">
+							<div><img src="images/landing/02.jpg" alt="Find your nearest Federation Centre." /></div>
+							<label><span>Find</span> your nearest Federation Centre.</label>
+							<a href="http://www.federationcentres.com.au/visit" target="_blank"></a>
+						</div>
+						<div class="pages_landing_item">
+							<div><img src="images/landing/03.jpg" alt="Get your Summer of Colour inspiration." /></div>
+							<label><span>Get</span> your Summer of Colour inspiration.</label>
+							<a href="http://www.federationcentres.com.au/" target="_blank"></a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="vendor/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="vendor/handlebars-v3.0.3.js"></script>
+
+		<script id="questions-template" type="text/x-handlebars-template">
+		  {{#each bank}}
+			<div>
+				<div class="page_helmet">
+					<div></div>
+				</div>
+				<div class="page_dynamic">
+					<div>
+						<h1></h1>
+						<h2>{{this.question}}</h2>
+						<div class="questions_gallery">
+							{{#each this.answers}}
+								<div class="questions_gallery_option">
+									<div><div></div></div>
+									<label>{{this.deck}}</label>
+								</div>
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		  {{/each}}
+		</script>
+
+		<script id="personality-template" type="text/x-handlebars-template">
+		  {{#each personality}}
+			<div class="page_results page_results-{{this.stub}}">
+				<div class="page_helmet">
+					<div></div>
+				</div>
+				<div class="page_dynamic">
+					<div class="page_results_body">
+						<h3>You are...</h3>
+						<h1>{{#if this.pre}}<pre>{{this.pre}}</pre>{{/if}}<b>{{#if this.special}}{{this.special}}{{else}}{{@key}}{{/if}}</b></h1>
+						<h2>{{this.post}}</h2>
+						<article>{{{this.deck}}}</article>
+					</div>
+					<div class="page_results_form">
+						<div class="form-share">
+							<h4>Share with your friends</h4>
+							<div class="form-share-strip">
+								<div class="form-share-facebook">
+									<a href="http://facebook.com/FederationCentres" target="_blank" />
+								</div>
+								<div class="form-share-twitter">
+									<a href="http://twitter.com/federationcntrs" target="_blank" />
+								</div>
+							</div>
+						</div>
+						<form action="http://cl.exct.net/DEManager.aspx" method="post">
+							<row>
+								<h2>Win <span>a</span> summer of colour spree</h2>
+							</row>
+							<row>
+								<p>Tell us in 25 words or less why you love the colours of summer for your chance to WIN a $250 voucher to spend in centre.</p>
+							</row>
+							<row class="form-double">
+								<input type="text" placeholder="First name" name="First Name" data-form-required="true" />
+								<input type="text" placeholder="Last name" name="Last Name" data-form-required="true" />
+							</row>
+							<row class="form-double">
+								<input type="email" placeholder="Email" name="Email" data-form-required="true" data-validate-format="email" />
+								<input type="text" placeholder="Mobile" name="Mobile" data-form-required="true" data-validate-format="phone" />
+							</row>
+							<row class="form-single">
+								<textarea placeholder="In 25 words or less tell us why you love the colours of summer..." name="Answer" data-form-required="true" data-validate-wordlimit="25"></textarea>
+								<label for="Answer"><value>25</value><valuedescriptor></valuedescriptor></label>
+							</row>
+							<row class="form-checkbox">
+								<input type="checkbox" name="Entry Subscribe" />
+								<label for="EntrySubscribe">Subscribe to latest newsletter and updates</label>
+							</row>
+							<row class="form-checkbox">
+								<input type="checkbox" name="Entry Agree" data-form-required="true" />
+								<label for="EntryAgree">I agree to <a href="http://www.federationcentres.com.au" target="_blank">terms and conditions</a></label>
+							</row>
+							<row class="form-button">
+								<div class="fed_button">
+									<div>ENTER COMP</div>
+								</div>
+							</row>
+							<row class="form-hidden">
+								<input type="hidden" name="_clientID" value="7223800" />
+								<input type="hidden" name="_deExternalKey" value="2DDA51AA-E690-4CD0-B395-2419D8948ADF" />
+								<input type="hidden" name="_action" value="add" />
+								<input type="hidden" name="_successURL" value="http://www.google.com" />
+            					<input type="hidden" name="_errorURL" value="http://www.theage.com.au" />
+								<input type="hidden" name="Property Code" value="" />
+								<input type="hidden" name="Colour" value="{{this.stub}}" />
+							</row>
+
+							<row class="form-success">
+								<h2>Thanks for entering!</h2>
+							</row>
+							<row class="form-success">
+								<p>Thank you for entering our Summer of Colour competition. Don’t forget to share with your friends for their chance to win.</p>
+							</row>
+						</form>
+					</div>
+				</div>
+			</div>
+			{{/each}}
+		</script>
+
+		<script type="text/javascript" src="js/fed.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,313 @@
+{
+	"bank": [
+		{
+			"question": "WHERE WOULD YOU RATHER BE?",
+			"answers": [{
+				"deck": "People watching at a cafe",
+				"personality": ["Emerald", "Midnight Blue"]
+			},{
+				"deck": "Receiving an Award",
+				"personality": ["Classic Ivory", "Scarlet"]
+			},{
+				"deck": "Base Jumping",
+				"personality": ["Tangerine"]
+			},{
+				"deck": "Hanging with family",
+				"personality": ["Sunshine Yellow", "Dusk Blue", "Coral"]
+			}]
+		},
+		{
+			"question": "PICK A WORD.",
+			"answers": [{
+				"deck": "Impeccable",
+				"personality": ["Classic Ivory"]
+			},{
+				"deck": "Peace-keeper",
+				"personality": ["Emerald"]
+			},{
+				"deck": "Unconditional",
+				"personality": ["Coral"]
+			},{
+				"deck": "Contemplative",
+				"personality": ["Midnight Blue", "Emerald"]
+			}]
+		},
+		{
+			"question": "YOUR FAVOURITE GIFTS ARE...",
+			"answers": [{
+				"deck": "Sentimental",
+				"personality": ["Dusk Blue", "Coral", "Tangerine"]
+			},{
+				"deck": "Crafty",
+				"personality": ["Sunshine Yellow"]
+			},{
+				"deck": "Elegant",
+				"personality": ["Classic Ivory"]
+			},{
+				"deck": "Useful",
+				"personality": ["Emerald"]
+			}]
+		},
+		{
+			"question": "MOST IMPORTANT...",
+			"answers": [{
+				"deck": "Awards",
+				"personality": ["Scarlet", "Classic Ivory"]
+			},{
+				"deck": "Wisdom",
+				"personality": ["Midnight Blue", "Emerald"]
+			},{
+				"deck": "Relationships",
+				"personality": ["Coral", "Dusk Blue", "Tangerine"]
+			},{
+				"deck": "Creativity",
+				"personality": ["Sunshine Yellow"]
+			}]
+		},
+		{
+			"question": "YOUR DREAM JOB IS CLOSEST TO...",
+			"answers": [{
+				"deck": "Nurse",
+				"personality": ["Dusk Blue", "Coral"]
+			},{
+				"deck": "Nobel Prize Winner",
+				"personality": ["Scarlet", "Sunshine Yellow"]
+			},{
+				"deck": "Event Planner",
+				"personality": ["Tangerine", "Classic Ivory"]
+			},{
+				"deck": "Writer",
+				"personality": ["Midnight Blue", "Sunshine Yellow", "Emerald"]
+			}]
+		},
+		{
+			"question": "PICK A HOUSE.",
+			"answers": [{
+				"deck": "Cottage",
+				"personality": ["Midnight Blue", "Sunshine Yellow"]
+			},{
+				"deck": "Beach house",
+				"personality": ["Emerald", "Dusk Blue", "Coral"]
+			},{
+				"deck": "Penthouse",
+				"personality": ["Scarlet", "Classic Ivory"]
+			},{
+				"deck": "Share-house",
+				"personality": ["Tangerine"]
+			}]
+		},
+		{
+			"question": "WHAT’S THE WORST?",
+			"answers": [{
+				"deck": "Stupidity",
+				"personality": ["Midnight Blue"]
+			},{
+				"deck": "Failure",
+				"personality": ["Scarlet", "Classic Ivory"]
+			},{
+				"deck": "Rejection",
+				"personality": ["Tangerine", "Coral", "Dusk Blue"]
+			},{
+				"deck": "Not being unique",
+				"personality": ["Sunshine Yellow"]
+			}]
+		},
+		{
+			"question": "YOUR STYLE IS...",
+			"answers": [{
+				"deck": "Quality over quantity",
+				"personality": ["Classic Ivory"]
+			},{
+				"deck": "Anything that pops!",
+				"personality": ["Scarlet", "Tangerine"]
+			},{
+				"deck": "Natural and comfortable",
+				"personality": ["Dusk Blue", "Coral", "Emerald"]
+			},{
+				"deck": "Edgy but effortless",
+				"personality": ["Sunshine Yellow", "Midnight Blue"]
+			}]
+		},
+		{
+			"question": "IF SOMETHING IS BOTHERING YOU, YOU...",
+			"answers": [{
+				"deck": "Get back to nature",
+				"personality": ["Emerald", "Midnight Blue", "Sunshine Yellow"]
+			},{
+				"deck": "Go for a run",
+				"personality": ["Tangerine"]
+			},{
+				"deck": "Cuddle a puppy",
+				"personality": ["Coral", "Dusk Blue"]
+			},{
+				"deck": "Call a friend",
+				"personality": ["Scarlet", "Classic Ivory"]
+			}]
+		},
+		{
+			"question": "PICK AN ANIMAL",
+			"answers": [{
+				"deck": "Lioness",
+				"personality": ["Tangerine"]
+			},{
+				"deck": "Peacock",
+				"personality": ["Scarlet"]
+			},{
+				"deck": "Swan",
+				"personality": ["Midnight Blue", "Classic Ivory", "Sunshine Yellow"]
+			},{
+				"deck": "Kitten",
+				"personality": ["Coral", "Dusk Blue"]
+			}]
+		}
+	],
+	"personality": {
+		"Tangerine": {
+			"stub": "tangerine",
+			"scheme": 1,
+			"pre": "zesty",
+			"post": "and you know how to pack a punch!",
+			"deck": "<p>Zesty tangerine is here and it knows how to pack a punch. The life of the party; you thrive on bringing people together, socialising and planning big events.</p><p>People love you because you’re warm, accepting of everyone, have a crazy amount of positive energy and a can-do attitude to boot.</p><p>Outgoing meets outdoorsy, you love camping, climbing and exploring the unknown. A daredevil, always looking forward to your next challenge, your next great adventure.</p><p>We don’t know how you do it, but keep up the good work.</p>"
+		},
+		"Coral": {
+			"stub": "coral",
+			"scheme": 2,
+			"post": "the perfect balance of peachy and pretty",
+			"deck": "<p>You’re the perfect balance of peachy and pretty. Friendly and approachable, you have a warmth and softness that others are drawn to. You couldn’t think a bad thought if you tried and this shines out of you, making you look lovely at every age.</p><p>You are refined, calm and loving and your friends know they can always count on you in times of need. Often times too generous, you have a tendency to see the good in everyone and put their needs before your own. Don’t forget to treat yourself every now and then. You’re too wonderful for your own good.</p><p>Favourite past-times include: hugging and helping.</p>"
+		},
+		"Sunshine Yellow": {
+			"stub": "yellow",
+			"scheme": 1,
+			"pre": "sunshine",
+			"special": "yellow",
+			"post": "the perfect balance of peachy and pretty",
+			"deck": "<p>Summer doesn’t get much brighter than this happy hue. You’re a vibrant and friendly creative thinker who’s always brainstorming big ideas and hatching plans. Learning fun facts is your idea of fun and you’re the captain of analysing and strategising on game night.</p><p>Your mix of sophistication, humour and wit, makes you fun and exciting to be around. Many wouldn’t know, as you reserve your personality for a select few; shining brightest when surrounded by loved ones. You prefer hanging with a tight-knit circle of friends to attending a big bash any day. Shmoozers are losers we say!</p><p>Favourite past-times include: David Attenborough documentaries and schooling your family at Monopoly.</p>"
+		},
+		"Emerald": {
+			"stub": "emerald",
+			"scheme": 3,
+			"post": "the natural born peace-keeper",
+			"deck": "<p>A natural born peace-keeper; you have a knack for keeping calm in crisis. Your understanding of what people are thinking and feeling allows you to diffuse situations better than most bomb experts. You step back, take your time, see the bigger picture, and only intervene when it’s absolutely necessary.</p><p>When you’re not people watching at a local cafe, and diffusing family feuds, you’re getting back to nature. Whether it’s gardening in the backyard or camping in the outback, nature always seems to make you feel better.</p><p>People describe you as down-to-earth, kind, generous, balanced and stable.</p>"
+		},
+		"Midnight Blue": {
+			"stub": "midblue",
+			"scheme": 4,
+			"post": "cool and moody",
+			"deck": "<p>You’re the coolest and moodiest of the hues. Think brooding and contemplative muscians and wise leaders that raise their words instead of their voices.</p><p>Your wisdom comes from a higher level of intelligence, a spiritual perspective. You use this knowledge, power and integrity to inspire higher ideals.</p><p>You emit a quiet knowing, and people are drawn to it like moths to a flame. It’s the feeling people get when they lay on their backs and look up at the midnight sky.</p><p>Favourite past-times include: reading on your Kindle and listening to bands nobody’s ever heard of.</p>"
+		},
+		"Dusk Blue": {
+			"stub": "duskblue",
+			"scheme": 4,
+			"post": "lead and follow",
+			"deck": "<p>It doesn’t get more diverse than this ocean hue. You’re a wash of sparkling tranquil lakes and loyalist tidal waves. You value your friends and family above all else and probably have a mantlepiece littered with sentimental mementos. You crave peace and harmony, but aren’t afraid to get rough to protect the ones you love.</p><p>Your need for peace and harmony transcends into a need for order and organisation. Your respectful nature makes you one of the only colours who can both lead and follow. You have no ego and people regard you with the utmost trust and respect.</p><p>Favourite past-times include: long phone calls with friends and colour coding information folders.</p>"
+		},
+		"Classic Ivory": {
+			"stub": "ivory",
+			"scheme": 5,
+			"post": "an understated hero",
+			"deck": "<p>If restraint is sophistication then you are its queen. An understated hero, you are the glue that (discreetly) holds everyone together.</p><p>Confident, poised and self-assured, you take to new situations with chameleon-like charm; going well with anyone (or thing) you’re paired with. That’s not to say that you lose yourself in group situations, you’re loveably transparent and sincere.</p><p>Friends would describe you as well-balanced, sensible and wise, often coming to you for financial advice. You have impeccably high standards, so try not to be too hard on yourself. Everything can’t be perfect all the time.</p>"
+		},
+		"Scarlet": {
+			"stub": "scarlet",
+			"scheme": 4,
+			"post": "va va voom!",
+			"deck": "<p>Like wearing a scarlet shade of lipstick, with you it’s all or nothing. Ambitious and competitive, you’re achievement orientated and believe there’s no such thing as second best.</p><p>The explorers, pioneers, entrepreneurs and builders of the world, you want to be first in discovering something new. You have a passion and enthusiasm for life and a need to pursue your dreams and goals. You’re extroverted and optimistic, courageous and confident. Others are drawn to the vitality you emit. Va va voom!</p><p>Favourite past-times include: winning shiny medals and giving moving acceptance speeches.</p>"
+		}
+	},
+	"centres": {
+		"bankstowncentral": {
+			"property_code": "pbanks"
+		},
+		"carlingfordcourt": {
+			"property_code": "pcarli",
+			"facebook": "carlingfordcourtnsw"
+		},
+		"roselands": {
+			"property_code": "prosel",
+			"facebook": "roselandsshopping"
+		},
+		"toorminagardens": {
+			"property_code": "ptoorm"
+		},
+		"warriewoodsquare": {
+			"property_code": "pwarri",
+			"facebook": "WarriewoodSquare"
+		},
+		"westsideplaza": {
+			"property_code": "pwests"
+		},
+		"tweedmall": {
+			"property_code": "ptweed"
+		},
+		"toombulcentre": {
+			"property_code": "ptoomb",
+			"facebook": "ToombulCentre"
+		},
+		"mtommaneycentre": {
+			"property_code": "pmtomm",
+			"facebook": "mtommaneycentre"
+		},
+		"colonnades": {
+			"property_code": "pcolon",
+			"facebook": "ColonnadesShopping"
+		},
+		"currambinecentral": {
+			"property_code": "pcurra",
+			"facebook": "currambine"
+		},
+		"dianellaplaza": {
+			"property_code": "pdiane"
+		},
+		"flinderssquare": {
+			"property_code": "pflndr"
+		},
+		"galleriashoppingcentre": {
+			"property_code": "pgalle",
+			"facebook": "GalleriaShoppingCentre"
+		},
+		"kalamundacentral": {
+			"property_code": "pkalam"
+		},
+		"karrathacitysc": {
+			"property_code": "pkarra"
+		},
+		"maddingtoncentral": {
+			"property_code": "pmaddi"
+		},
+		"mandurahforum": {
+			"property_code": "pmandu",
+			"facebook": "MandurahForum"
+		},
+		"stirlingscentral": {
+			"property_code": "pstirl"
+		},
+		"warnbrocentre": {
+			"property_code": "pwarnb",
+			"facebook": "WarnbroCentre"
+		},
+		"warwickgrove": {
+			"property_code": "pwarwi"
+		},
+		"cranbournepark": {
+			"property_code": "pcranb",
+			"facebook": "CranbournePark"
+		},
+		"boxhillcentral": {
+			"property_code": "pboxhi"
+		},
+		"morningtoncentral": {
+			"property_code": "pmorni"
+		},
+		"thegatewaysc": {
+			"property_code": "pgatew"
+		},
+		"theglen": {
+			"property_code": "pglens",
+			"facebook": "TheGlenShopping"
+		},
+		"vicgardenssc": {
+			"property_code": "pvicgd",
+			"facebook": "vicgardens"
+		}
+	}
+}

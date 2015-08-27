@@ -1,0 +1,71 @@
+$personality: (
+	tangerine: (
+		background: #f08a50,
+		heading: #c94d23,
+		fields: #e0723e
+	),
+	coral: (
+		background: #f3b3af,
+		heading: #e49e9a,
+		fields: #e49e9a
+	),
+	yellow: (
+		background: #f9d965,
+		heading: #c94d23,
+		pre: #d0a427,
+		body: #c94d23,
+		placeholder: rgba(201,77,35,0.5)
+	),
+	emerald: (
+		background: #269068,
+		heading: #10542d,
+		fields: #1d7850
+	),
+	midblue: (
+		background: #2c2f43,
+		fields: #222433
+	),
+	duskblue: (
+		background: #54b4c2,
+		fields: #3c9aa9
+	),
+	ivory: (
+		background: #dfcdb9,
+		heading: #b49f87,
+		fields: #c9b6a0
+	),
+	scarlet: (
+		background: #bf2a25,
+		fields: #a61e1a
+	)
+);
+
+$centres: (
+	bankstowncentral,
+	carlingfordcourt,
+	roselands,
+	toorminagardens,
+	warriewoodsquare,
+	westsideplaza,
+	tweedmall,
+	toombulcentre,
+	mtommaneycentre,
+	colonnades,
+	currambinecentral,
+	dianellaplaza,
+	flinderssquare,
+	galleriashoppingcentre,
+	kalamundacentral,
+	karrathacitysc,
+	maddingtoncentral,
+	mandurahforum,
+	stirlingscentral,
+	warnbrocentre,
+	warwickgrove,
+	cranbournepark,
+	boxhillcentral,
+	morningtoncentral,
+	thegatewaysc,
+	theglen,
+	vicgardenssc
+)
